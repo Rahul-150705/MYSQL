@@ -3,7 +3,7 @@ create table employee
   name varchar(20) not null ,
   salary decimal(10,2)  check(salary>0),
   dep_id int,
-  foreign key(dep_id) references departments(dep_id)
+  foreign key(dep_id) references departments(table_name of reference table and their common column name)(dep_id)  in foreign key 
   );
 
 
