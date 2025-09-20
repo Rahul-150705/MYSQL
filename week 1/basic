@@ -1,0 +1,22 @@
+to Create Database:
+            create database github;
+to show database:
+            show databases;
+to use that datbase: 
+            use <database name>;
+to show tables:
+            show tables;
+to create table:
+            create table<table-name>
+            ( id int(data type) not null primary key,
+              name varchar(20) not null ,
+              age int not null     // before ending it we should not use comma when its the last column
+            );
+to insert into table:
+              insert into <table-name>(id,name,age) values(1,"rahul",20),(2,"ranbir",21),(3,"max",27),(4,"verstappen",30);
+                                                            or
+              insert into <table-name> values(1,"rahul",20),(2,"ranbir",21),(3,"max",27),(4,"verstappen",30);
+to display the table:
+              select * from <table-name>;
+to describe table:
+              desc <table-name>; // it will describe the table structure like the id and not null or not and their key like primary key foreign key 
